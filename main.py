@@ -29,7 +29,13 @@ while working:
     if ans == 'L':
         print('Press ENTER every time when you need to go next')
         for _ in range(len(source)):
-            input(f"{source[_]} = {source_rev[_]}")
+            while True:
+                input(f"{source[_]} = {source_rev[_]}")
+                ans = input(f'What\'s {source[_]}? ')
+                if ans == source_rev[_]:
+                    break
+                else:
+                    print('Incorrect! Let\'s try again.')
     if ans == 'P':
         correct = 0
         incorrect = 0
