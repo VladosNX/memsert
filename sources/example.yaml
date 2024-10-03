@@ -4,4 +4,10 @@
 # Feel free to download ready source file in internet -
 # this will make learning easier!
 
-{}
+learn: {
+  'word': 'translate'
+}
+
+test: {
+  'sentence': 'sentence_translate'
+}
