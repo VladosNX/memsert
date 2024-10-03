@@ -5,9 +5,13 @@
 # this will make learning easier!
 
 learn: {
-  'word': 'translate'
+  'word1': 'translate1',
+  'word2': 'translate2',
+  'word3': 'translate3'
 }
 
 test: {
-  'sentence': 'sentence_translate'
+  'sentence1': 'sentence_translate1',
+  'sentence2': 'sentence_translate2',
+  'sentence3': 'sentence_translate3'
 }
